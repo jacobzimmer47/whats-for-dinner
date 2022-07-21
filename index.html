@@ -3,16 +3,27 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
+  <section class='top-banner'>
   <h1 class='top-header'>Whats for Dinner?</h1>
   <button id='add-button'>Add a recipe</button>
+  </section>
   <body class='two-boxes'>
-    <img class='background-image'></img>
-    <h2 class='left-box'>What are you looking for?</h2>
-      <input type="radio" id=Side value='Side'><input>
-      <input type="radio" id=Main value='main Dish'><input>
-      <input type="radio" id=Dessert value='Dessert'><input>
-      <input type="radio" id=Entire value='Entire Meal'><input>
-      <button id='lets-cook'>LETS COOK!</button>
+    <img class='background-image'>
+    <section class='left-box'>
+      <h2>What are you looking for?</h2>
+      <section class='radio-input'>
+        <input type="radio" id=Side><input>
+          <lable for=Side>Side</lable>
+        <input type="radio" id=Main><input>
+          <lable for=Main>Main Dish</lable>
+        <input type="radio" id=Dessert><input>
+          <lable for=Dessert>Dessert</lable>
+        <input type="radio" id=Entire><input>
+          <lable for=Entire>Entire meal</lable>
+        <button id='lets-cook'>LETS COOK!</button>
+      </section>
+    </section>
+
     <h2 class='right-box'>You Should make</h2>
   </body>
   <script type="text/javascript" src="main.js"></script>

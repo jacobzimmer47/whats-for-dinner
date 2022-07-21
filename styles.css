@@ -1,3 +1,69 @@
+.top-header{
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+#add-button{
+  position: absolute;
+  top: 22px;
+  right: 16px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+
+.top-banner{
+  border: 16px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-color: #0fb9b1;
+  background-color: #0fb9b1;
+  display: flex;
+}
+
+.two-boxes{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+
+
+
+}
+
+.left-box{
+  border-style: groove;
+  border-color: rgba(225, 225, 225, .9);
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+
+}
+
+.radio-input{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.right-box{
+  border-style: groove;
+  border-color: rgba(225, 225, 225, .9);
+  float: right;
+  width: 25%;
+  padding: 0 10px
+}
+
+
+
+
+
+
 /* font-family: 'Roboto', sans-serif;
 
 COLORS
@@ -7,4 +73,3 @@ grey - #95a5a6;
 red - #ee5253
 
 */
-
